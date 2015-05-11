@@ -1,9 +1,9 @@
 {
-    "name": "sulu/sulu-standard",
+    "name": "symcloud/symcloud-standard",
     "license": "MIT",
     "type": "project",
-    "description": "The sulu content management framework",
-    "version": "0.18.1",
+    "description": "",
+    "version": "dev-master",
     "autoload": {
         "psr-0": {
             "": "src/"
@@ -32,7 +32,12 @@
 
         "jackalope/jackalope-doctrine-dbal": "~1.2.0",
         "jackalope/jackalope-jackrabbit": "~1.2.0",
-        "doctrine/doctrine-cache-bundle": "~1.0"
+        "doctrine/doctrine-cache-bundle": "~1.0",
+
+        "symcloud/symcloud": "dev-master",
+        "symcloud/distributed-storage": "@dev",
+        "php-riak/riak-client": "@dev",
+        "php-riak/riak-client-pb": "@dev"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3",
