@@ -7,150 +7,6 @@
     "hash": "9f1689a0f01a1df2ba861d1748b0534c",
     "packages": [
         {
-            "name": "authbucket/oauth2-php",
-            "version": "2.4.8",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/authbucket/oauth2-php.git",
-                "reference": "43aeb130495e995fcdea9bec336f1542ff463fc9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/authbucket/oauth2-php/zipball/43aeb130495e995fcdea9bec336f1542ff463fc9",
-                "reference": "43aeb130495e995fcdea9bec336f1542ff463fc9",
-                "shasum": ""
-            },
-            "require": {
-                "guzzle/guzzle": "~3.9",
-                "php": ">=5.3.9",
-                "symfony/http-foundation": "~2.3",
-                "symfony/http-kernel": "~2.3",
-                "symfony/security": "~2.3",
-                "symfony/serializer": "~2.3",
-                "symfony/validator": "~2.3"
-            },
-            "require-dev": {
-                "doctrine/data-fixtures": "~1.0",
-                "doctrine/orm": "~2.2",
-                "ext-pdo_sqlite": "*",
-                "fabpot/php-cs-fixer": "@stable",
-                "monolog/monolog": "~1.0",
-                "phpunit/phpunit": "@stable",
-                "sami/sami": "@stable",
-                "satooshi/php-coveralls": "dev-master",
-                "silex/silex": "~1.2",
-                "symfony/browser-kit": "~2.3",
-                "symfony/config": "~2.3",
-                "symfony/css-selector": "~2.3",
-                "symfony/form": "~2.3",
-                "symfony/locale": "~2.3",
-                "symfony/process": "~2.3",
-                "symfony/translation": "~2.3",
-                "symfony/twig-bridge": "~2.3",
-                "twig/twig": "~1.8"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-develop": "2.x-dev",
-                    "dev-master": "2.4.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "AuthBucket\\OAuth2": "src/",
-                    "AuthBucket\\OAuth2\\Tests": "tests/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Wong Hoi Sing Edison",
-                    "email": "hswong3i@pantarei-design.com",
-                    "homepage": "http://hswong3i.net"
-                }
-            ],
-            "description": "The standard compliant OAuth2.0 library based on the Symfony Components",
-            "homepage": "https://github.com/authbucket/oauth2-php",
-            "keywords": [
-                "oauth2"
-            ],
-            "time": "2014-12-05 06:38:34"
-        },
-        {
-            "name": "authbucket/oauth2-symfony-bundle",
-            "version": "2.4.9",
-            "target-dir": "AuthBucket/Bundle/OAuth2Bundle",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/authbucket/oauth2-symfony-bundle.git",
-                "reference": "187bb11a8fde9bd5e467a181b731fb15f8325c28"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/authbucket/oauth2-symfony-bundle/zipball/187bb11a8fde9bd5e467a181b731fb15f8325c28",
-                "reference": "187bb11a8fde9bd5e467a181b731fb15f8325c28",
-                "shasum": ""
-            },
-            "require": {
-                "authbucket/oauth2-php": "~2.4",
-                "php": ">=5.3.9",
-                "symfony/framework-bundle": "~2.3",
-                "symfony/security-bundle": "~2.3"
-            },
-            "require-dev": {
-                "doctrine/doctrine-bundle": "~1.2",
-                "doctrine/doctrine-fixtures-bundle": "~2.2",
-                "doctrine/orm": "~2.2",
-                "ext-pdo_sqlite": "*",
-                "fabpot/php-cs-fixer": "@stable",
-                "incenteev/composer-parameter-handler": "~2.0",
-                "phpunit/phpunit": "@stable",
-                "sami/sami": "@stable",
-                "satooshi/php-coveralls": "dev-master",
-                "sensio/distribution-bundle": "~3.0",
-                "sensio/framework-extra-bundle": "~3.0",
-                "symfony/assetic-bundle": "~2.3",
-                "symfony/monolog-bundle": "~2.4",
-                "symfony/swiftmailer-bundle": "~2.3",
-                "symfony/symfony": "~2.3",
-                "twig/extensions": "~1.0"
-            },
-            "type": "symfony-bundle",
-            "extra": {
-                "branch-alias": {
-                    "dev-develop": "2.x-dev",
-                    "dev-master": "2.4.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "AuthBucket\\Bundle\\OAuth2Bundle": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Wong Hoi Sing Edison",
-                    "email": "hswong3i@pantarei-design.com",
-                    "homepage": "http://hswong3i.net"
-                }
-            ],
-            "description": "Symfony OAuth2Bundle",
-            "homepage": "https://github.com/authbucket/oauth2-symfony-bundle",
-            "keywords": [
-                "oauth2",
-                "symfony"
-            ],
-            "time": "2014-12-05 06:40:23"
-        },
-        {
             "name": "behat/transliterator",
             "version": "v1.0.1",
             "source": {
@@ -1431,6 +1287,129 @@
                 "varnish"
             ],
             "time": "2014-10-20 15:55:43"
+        },
+        {
+            "name": "friendsofsymfony/oauth-server-bundle",
+            "version": "1.4.2",
+            "target-dir": "FOS/OAuthServerBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfSymfony/FOSOAuthServerBundle.git",
+                "reference": "9e15c229eff547443d686445d629e9356ab0672e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSOAuthServerBundle/zipball/9e15c229eff547443d686445d629e9356ab0672e",
+                "reference": "9e15c229eff547443d686445d629e9356ab0672e",
+                "shasum": ""
+            },
+            "require": {
+                "friendsofsymfony/oauth2-php": "~1.1.0",
+                "php": ">=5.3.3",
+                "symfony/framework-bundle": "~2.1",
+                "symfony/security-bundle": "~2.1"
+            },
+            "require-dev": {
+                "doctrine/doctrine-bundle": "~1.0",
+                "doctrine/mongodb-odm": "1.0.*@dev",
+                "doctrine/orm": ">=2.2,<2.5-dev",
+                "symfony/class-loader": "~2.1",
+                "symfony/yaml": "~2.1",
+                "willdurand/propel-typehintable-behavior": "1.0.*"
+            },
+            "suggest": {
+                "doctrine/doctrine-bundle": "*",
+                "doctrine/mongodb-odm-bundle": "*",
+                "propel/propel-bundle": "If you want to use Propel with Symfony2, then you will have to install the PropelBundle",
+                "willdurand/propel-typehintable-behavior": "The Typehintable behavior is useful to add type hints on generated methods, to be compliant with interfaces"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "FOS\\OAuthServerBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Arnaud Le Blanc",
+                    "email": "arnaud.lb@gmail.com"
+                },
+                {
+                    "name": "FriendsOfSymfony Community",
+                    "homepage": "https://github.com/FriendsOfSymfony/FOSOAuthServerBundle/contributors"
+                }
+            ],
+            "description": "Symfony2 OAuth Server Bundle",
+            "homepage": "http://friendsofsymfony.github.com",
+            "keywords": [
+                "oauth",
+                "oauth2",
+                "server"
+            ],
+            "time": "2014-10-31 13:44:14"
+        },
+        {
+            "name": "friendsofsymfony/oauth2-php",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfSymfony/oauth2-php.git",
+                "reference": "23e76537c4a02e666ab4ba5abe67a69a886a0310"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/oauth2-php/zipball/23e76537c4a02e666ab4ba5abe67a69a886a0310",
+                "reference": "23e76537c4a02e666ab4ba5abe67a69a886a0310",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "symfony/http-foundation": "~2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "OAuth2\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Arnaud Le Blanc",
+                    "email": "arnaud.lb@gmail.com"
+                },
+                {
+                    "name": "FriendsOfSymfony Community",
+                    "homepage": "https://github.com/FriendsOfSymfony/oauth2-php/contributors"
+                }
+            ],
+            "description": "OAuth2 library",
+            "homepage": "https://github.com/FriendsOfSymfony/oauth2-php",
+            "keywords": [
+                "oauth",
+                "oauth2"
+            ],
+            "time": "2014-11-03 10:21:20"
         },
         {
             "name": "friendsofsymfony/rest-bundle",
@@ -3902,21 +3881,26 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symcloud/symcloud.git",
-                "reference": "50e52a331105e1191202e2240db200ae1520b1e1"
+                "reference": "b0ec074b757a9ebf955c911eb5d4829998c59f99"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symcloud/symcloud/zipball/50e52a331105e1191202e2240db200ae1520b1e1",
-                "reference": "50e52a331105e1191202e2240db200ae1520b1e1",
+                "url": "https://api.github.com/repos/symcloud/symcloud/zipball/b0ec074b757a9ebf955c911eb5d4829998c59f99",
+                "reference": "b0ec074b757a9ebf955c911eb5d4829998c59f99",
                 "shasum": ""
             },
             "require": {
-                "authbucket/oauth2-symfony-bundle": "~2.4",
+                "friendsofsymfony/oauth-server-bundle": "1.4.*",
                 "php-riak/riak-client": "@dev",
                 "php-riak/riak-client-pb": "@dev",
                 "symcloud/distributed-storage": "dev-master"
             },
             "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Symcloud\\": "src/"
+                }
+            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -3927,7 +3911,7 @@
                     "email": "johannes.wachter@massiveart.at"
                 }
             ],
-            "time": "2015-05-11 13:44:58"
+            "time": "2015-05-11 15:11:45"
         },
         {
             "name": "symfony-cmf/core-bundle",

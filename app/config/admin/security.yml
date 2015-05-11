@@ -21,12 +21,23 @@ security:
         - { path: ^/admin/security/reset, roles: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/admin/login, roles: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/admin/_wdt, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/admin/api, roles: IS_AUTHENTICATED_FULLY }
         - { path: ^/admin, roles: ROLE_USER }
 
     firewalls:
+        oauth_token:
+            pattern:    ^/oauth/v2/token
+            security:   false
+
+        oauth_authorize:
+            pattern:    ^/oauth/v2/auth
+            http_basic: true
+
         admin:
             pattern: ^/
             anonymous: ~
+            fos_oauth:  true
+            stateless:  true
             entry_point: sulu_security.authentication_entry_point
             form_login:
                 login_path: sulu_admin.login

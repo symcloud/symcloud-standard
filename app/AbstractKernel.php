@@ -62,6 +62,10 @@ abstract class AbstractKernel extends SuluKernel
 
             // tools
             new Massive\Bundle\BuildBundle\MassiveBuildBundle(),
+
+            // symcloud
+            new FOS\OAuthServerBundle\FOSOAuthServerBundle(),
+            new \Symcloud\Bundle\OAuth2Bundle\SymcloudOAuth2Bundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

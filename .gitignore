@@ -42,3 +42,6 @@
 
 # Behat local file
 behat.yml
+
+# smycloud
+!app/Resources/webspaces/symcloud.io.xml

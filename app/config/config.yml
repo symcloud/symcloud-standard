@@ -4,6 +4,8 @@ imports:
 
 framework:
     #esi:             ~
+    serializer:
+        enabled: true
     translator:      { fallback: "%locale%" }
     secret:          "%secret%"
     form:            ~
@@ -69,6 +71,7 @@ doctrine:
                 alias: "GedmoTree" # this one is optional and will default to the name set for the mapping
                 is_bundle: false
         resolve_target_entities:
+            Symfony\Component\Security\Core\User\UserInterface: Sulu\Bundle\SecurityBundle\Entity\User
             Sulu\Component\Security\Authentication\UserInterface: Sulu\Bundle\SecurityBundle\Entity\User
             Sulu\Bundle\ProductBundle\Entity\ProductInterface: Sulu\Bundle\ProductBundle\Entity\Product
             Sulu\Component\Security\Authentication\RoleInterface: Sulu\Bundle\SecurityBundle\Entity\Role
@@ -174,9 +177,17 @@ massive_search:
     persistence:
         doctrine_orm:
             enabled: true
+
 doctrine_cache:
    providers:
        phpcr_meta:
            type: %phpcr_cache%
        phpcr_nodes:
            type: %phpcr_cache%
+
+fos_oauth_server:
+    db_driver: orm
+    client_class:        Symcloud\Bundle\OAuth2Bundle\Entity\Client
+    access_token_class:  Symcloud\Bundle\OAuth2Bundle\Entity\AccessToken
+    refresh_token_class: Symcloud\Bundle\OAuth2Bundle\Entity\RefreshToken
+    auth_code_class:     Symcloud\Bundle\OAuth2Bundle\Entity\AuthCode
