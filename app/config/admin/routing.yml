@@ -96,3 +96,8 @@ fos_oauth_server_token:
 fos_oauth_server_authorize:
     resource: "@FOSOAuthServerBundle/Resources/config/routing/authorize.xml"
     prefix: /admin
+
+symcloud_storage_api:
+    type: rest
+    resource: "@SymcloudStorageBundle/Resources/config/routing_api.yml"
+    prefix: /admin/api
