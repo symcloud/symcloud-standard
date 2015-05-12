@@ -26,18 +26,17 @@ security:
 
     firewalls:
         oauth_token:
-            pattern:    ^/oauth/v2/token
+            pattern:    ^/admin/oauth/v2/token
             security:   false
 
         oauth_authorize:
-            pattern:    ^/oauth/v2/auth
+            pattern:    ^/admin/oauth/v2/auth
             http_basic: true
 
         admin:
             pattern: ^/
             anonymous: ~
             fos_oauth:  true
-            stateless:  true
             entry_point: sulu_security.authentication_entry_point
             form_login:
                 login_path: sulu_admin.login

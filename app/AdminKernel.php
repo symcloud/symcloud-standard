@@ -16,8 +16,12 @@ class AdminKernel extends \AbstractKernel
     public function registerBundles()
     {
         $bundles = parent::registerBundles();
-        $bundles[] = new Symfony\Bundle\SecurityBundle\SecurityBundle();
         $bundles[] = new Sulu\Bundle\AdminBundle\SuluAdminBundle();
+        $bundles[] = new Symfony\Bundle\SecurityBundle\SecurityBundle();
+
+        // symcloud
+        $bundles[] = new FOS\OAuthServerBundle\FOSOAuthServerBundle();
+        $bundles[] = new \Symcloud\Bundle\OAuth2Bundle\SymcloudOAuth2Bundle();
 
         return $bundles;
     }

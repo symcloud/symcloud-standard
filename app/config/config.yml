@@ -184,10 +184,3 @@ doctrine_cache:
            type: %phpcr_cache%
        phpcr_nodes:
            type: %phpcr_cache%
-
-fos_oauth_server:
-    db_driver: orm
-    client_class:        Symcloud\Bundle\OAuth2Bundle\Entity\Client
-    access_token_class:  Symcloud\Bundle\OAuth2Bundle\Entity\AccessToken
-    refresh_token_class: Symcloud\Bundle\OAuth2Bundle\Entity\RefreshToken
-    auth_code_class:     Symcloud\Bundle\OAuth2Bundle\Entity\AuthCode

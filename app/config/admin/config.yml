@@ -73,3 +73,13 @@ massive_build:
                 node_order:
                 search_index:
 
+fos_oauth_server:
+    db_driver: orm
+    client_class:        Symcloud\Bundle\OAuth2Bundle\Entity\Client
+    access_token_class:  Symcloud\Bundle\OAuth2Bundle\Entity\AccessToken
+    refresh_token_class: Symcloud\Bundle\OAuth2Bundle\Entity\RefreshToken
+    auth_code_class:     Symcloud\Bundle\OAuth2Bundle\Entity\AuthCode
+    service:
+        user_provider: sulu_security.user_repository
+        options:
+            supported_scopes: files
