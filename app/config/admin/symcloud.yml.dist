@@ -1,3 +1,5 @@
 symcloud_storage:
     servers:
         primary: {host: symcloud.lo}
+        backups:
+            - {host: your-1.symcloud.lo}

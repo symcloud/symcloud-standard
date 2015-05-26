@@ -21,6 +21,7 @@ security:
         - { path: ^/admin/security/reset, roles: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/admin/login, roles: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/admin/_wdt, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/admin/api/objects, roles: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/admin/api, roles: IS_AUTHENTICATED_FULLY }
         - { path: ^/admin, roles: ROLE_USER }
 
