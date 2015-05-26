@@ -3847,12 +3847,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symcloud/distributed-storage.git",
-                "reference": "c009f2657b41521892ffcd270ad47e7c9f26853a"
+                "reference": "869d7a54894e27219dd8c2ce21201cb084943a95"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symcloud/distributed-storage/zipball/c009f2657b41521892ffcd270ad47e7c9f26853a",
-                "reference": "c009f2657b41521892ffcd270ad47e7c9f26853a",
+                "url": "https://api.github.com/repos/symcloud/distributed-storage/zipball/869d7a54894e27219dd8c2ce21201cb084943a95",
+                "reference": "869d7a54894e27219dd8c2ce21201cb084943a95",
                 "shasum": ""
             },
             "require": {
@@ -3860,6 +3860,8 @@
                 "ocramius/proxy-manager": "1.0.*",
                 "php-riak/riak-client": "1.0.*@dev",
                 "php-riak/riak-client-pb": "@dev",
+                "symfony/event-dispatcher": "~2.6",
+                "symfony/filesystem": "~2.6",
                 "symfony/finder": "~2.6",
                 "symfony/property-access": "~2.6",
                 "symfony/security-core": "~2.6",
@@ -3883,7 +3885,7 @@
                     "email": "johannes.wachter@massiveart.at"
                 }
             ],
-            "time": "2015-05-23 08:57:34"
+            "time": "2015-05-26 08:25:36"
         },
         {
             "name": "symcloud/symcloud",
@@ -3891,12 +3893,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symcloud/symcloud.git",
-                "reference": "c956d82d4b1e5162aa3db76584d2c5259295c253"
+                "reference": "49787d70370a33d9f5b5dd06884924ac2b9e6a1d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symcloud/symcloud/zipball/c956d82d4b1e5162aa3db76584d2c5259295c253",
-                "reference": "c956d82d4b1e5162aa3db76584d2c5259295c253",
+                "url": "https://api.github.com/repos/symcloud/symcloud/zipball/49787d70370a33d9f5b5dd06884924ac2b9e6a1d",
+                "reference": "49787d70370a33d9f5b5dd06884924ac2b9e6a1d",
                 "shasum": ""
             },
             "require": {
@@ -3921,7 +3923,7 @@
                     "email": "johannes.wachter@massiveart.at"
                 }
             ],
-            "time": "2015-05-23 10:58:26"
+            "time": "2015-05-26 08:25:25"
         },
         {
             "name": "symfony-cmf/core-bundle",
@@ -5672,16 +5674,16 @@
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "2.0.16",
+            "version": "2.0.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "934fd03eb6840508231a7f73eb8940cf32c3b66c"
+                "reference": "c4e8e7725e351184a76544634855b8a9c405a6e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/934fd03eb6840508231a7f73eb8940cf32c3b66c",
-                "reference": "934fd03eb6840508231a7f73eb8940cf32c3b66c",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/c4e8e7725e351184a76544634855b8a9c405a6e3",
+                "reference": "c4e8e7725e351184a76544634855b8a9c405a6e3",
                 "shasum": ""
             },
             "require": {
@@ -5730,7 +5732,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2015-04-11 04:35:00"
+            "time": "2015-05-25 05:11:59"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -5918,16 +5920,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "4.6.6",
+            "version": "4.6.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "3afe303d873a4d64c62ef84de491b97b006fbdac"
+                "reference": "57bf06dd4eebe2a5ced79a8de71509e7d5c18b25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/3afe303d873a4d64c62ef84de491b97b006fbdac",
-                "reference": "3afe303d873a4d64c62ef84de491b97b006fbdac",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/57bf06dd4eebe2a5ced79a8de71509e7d5c18b25",
+                "reference": "57bf06dd4eebe2a5ced79a8de71509e7d5c18b25",
                 "shasum": ""
             },
             "require": {
@@ -5986,7 +5988,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2015-04-29 15:18:52"
+            "time": "2015-05-25 05:18:18"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
