@@ -3847,12 +3847,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symcloud/distributed-storage.git",
-                "reference": "869d7a54894e27219dd8c2ce21201cb084943a95"
+                "reference": "3fd6bd9d41d850c00a3046c06b0a839207960317"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symcloud/distributed-storage/zipball/869d7a54894e27219dd8c2ce21201cb084943a95",
-                "reference": "869d7a54894e27219dd8c2ce21201cb084943a95",
+                "url": "https://api.github.com/repos/symcloud/distributed-storage/zipball/3fd6bd9d41d850c00a3046c06b0a839207960317",
+                "reference": "3fd6bd9d41d850c00a3046c06b0a839207960317",
                 "shasum": ""
             },
             "require": {
@@ -3885,7 +3885,7 @@
                     "email": "johannes.wachter@massiveart.at"
                 }
             ],
-            "time": "2015-05-26 08:25:36"
+            "time": "2015-05-26 09:18:32"
         },
         {
             "name": "symcloud/symcloud",
@@ -3893,12 +3893,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symcloud/symcloud.git",
-                "reference": "49787d70370a33d9f5b5dd06884924ac2b9e6a1d"
+                "reference": "0b1ac90e6249721032abd5ad691a9b1a782412a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symcloud/symcloud/zipball/49787d70370a33d9f5b5dd06884924ac2b9e6a1d",
-                "reference": "49787d70370a33d9f5b5dd06884924ac2b9e6a1d",
+                "url": "https://api.github.com/repos/symcloud/symcloud/zipball/0b1ac90e6249721032abd5ad691a9b1a782412a3",
+                "reference": "0b1ac90e6249721032abd5ad691a9b1a782412a3",
                 "shasum": ""
             },
             "require": {
@@ -3923,7 +3923,7 @@
                     "email": "johannes.wachter@massiveart.at"
                 }
             ],
-            "time": "2015-05-26 08:25:25"
+            "time": "2015-05-26 09:18:16"
         },
         {
             "name": "symfony-cmf/core-bundle",
