@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a7dbaf0d9df1516e441b5afcea8aa871",
+    "hash": "9f1689a0f01a1df2ba861d1748b0534c",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -3847,16 +3847,16 @@
         },
         {
             "name": "symcloud/distributed-storage",
-            "version": "dev-feature/distribution",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symcloud/distributed-storage.git",
-                "reference": "3cd70774097427e24b286560ce56266c0786587a"
+                "reference": "383ea00ddf73e3018e6e5e7931c817c428a9a73e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symcloud/distributed-storage/zipball/3cd70774097427e24b286560ce56266c0786587a",
-                "reference": "3cd70774097427e24b286560ce56266c0786587a",
+                "url": "https://api.github.com/repos/symcloud/distributed-storage/zipball/383ea00ddf73e3018e6e5e7931c817c428a9a73e",
+                "reference": "383ea00ddf73e3018e6e5e7931c817c428a9a73e",
                 "shasum": ""
             },
             "require": {
@@ -3889,27 +3889,27 @@
                     "email": "johannes.wachter@massiveart.at"
                 }
             ],
-            "time": "2015-06-01 08:05:41"
+            "time": "2015-06-01 09:11:46"
         },
         {
             "name": "symcloud/symcloud",
-            "version": "dev-feature/distribution",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symcloud/symcloud.git",
-                "reference": "1e950831ddc134431af380589a16fc599604cf3d"
+                "reference": "b1386a4798b2fb0af0ac584c82bccfcb4336f243"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symcloud/symcloud/zipball/1e950831ddc134431af380589a16fc599604cf3d",
-                "reference": "1e950831ddc134431af380589a16fc599604cf3d",
+                "url": "https://api.github.com/repos/symcloud/symcloud/zipball/b1386a4798b2fb0af0ac584c82bccfcb4336f243",
+                "reference": "b1386a4798b2fb0af0ac584c82bccfcb4336f243",
                 "shasum": ""
             },
             "require": {
                 "friendsofsymfony/oauth-server-bundle": "1.4.*",
                 "php-riak/riak-client": "@dev",
                 "php-riak/riak-client-pb": "@dev",
-                "symcloud/distributed-storage": "dev-feature/distribution"
+                "symcloud/distributed-storage": "dev-master"
             },
             "type": "library",
             "autoload": {
@@ -3927,7 +3927,7 @@
                     "email": "johannes.wachter@massiveart.at"
                 }
             ],
-            "time": "2015-06-01 08:05:50"
+            "time": "2015-06-01 09:15:27"
         },
         {
             "name": "symfony-cmf/core-bundle",
