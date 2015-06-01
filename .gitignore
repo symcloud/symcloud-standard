@@ -45,3 +45,4 @@ behat.yml
 
 # smycloud
 !app/Resources/webspaces/symcloud.io.xml
+app/config/admin/symcloud.yml
