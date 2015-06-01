@@ -34,7 +34,7 @@
         "jackalope/jackalope-jackrabbit": "~1.2.0",
         "doctrine/doctrine-cache-bundle": "~1.0",
 
-        "symcloud/symcloud": "dev-feature/distribution",
+        "symcloud/symcloud": "dev-master",
         "symcloud/distributed-storage": "@dev",
         "php-riak/riak-client": "@dev",
         "php-riak/riak-client-pb": "@dev"
