@@ -23,6 +23,7 @@ class AdminKernel extends \AbstractKernel
         $bundles[] = new FOS\OAuthServerBundle\FOSOAuthServerBundle();
         $bundles[] = new \Symcloud\Bundle\OAuth2Bundle\SymcloudOAuth2Bundle();
         $bundles[] = new \Symcloud\Bundle\StorageBundle\SymcloudStorageBundle();
+        $bundles[] = new \Symcloud\Bundle\SuluBundle\SymcloudSuluBundle();
 
         return $bundles;
     }
