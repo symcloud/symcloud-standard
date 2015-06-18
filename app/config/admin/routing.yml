@@ -101,3 +101,8 @@ symcloud_storage_api:
     type: rest
     resource: "@SymcloudStorageBundle/Resources/config/routing_api.yml"
     prefix: /admin/api
+
+symcloud_sulu_routing:
+    type: rest
+    resource: "@SymcloudSuluBundle/Resources/config/routing.yml"
+    prefix: /admin
