@@ -75,7 +75,8 @@
         "symfony-assets-install": "relative",
         "incenteev-parameters": [
             {"file": "app/config/parameters.yml"},
-            {"file": "app/config/phpcr.yml"}
+            {"file": "app/config/phpcr.yml"},
+            {"file": "app/config/admin/symcloud.yml"}
         ]
     }
 }
