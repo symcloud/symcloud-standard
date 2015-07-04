@@ -3900,12 +3900,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symcloud/symcloud.git",
-                "reference": "451ff73faed7da95bef2b76d8f7751d5e8d39a22"
+                "reference": "83ea376b2791900e0c69fab63e1645c0c3906696"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symcloud/symcloud/zipball/451ff73faed7da95bef2b76d8f7751d5e8d39a22",
-                "reference": "451ff73faed7da95bef2b76d8f7751d5e8d39a22",
+                "url": "https://api.github.com/repos/symcloud/symcloud/zipball/83ea376b2791900e0c69fab63e1645c0c3906696",
+                "reference": "83ea376b2791900e0c69fab63e1645c0c3906696",
                 "shasum": ""
             },
             "require": {
@@ -3930,7 +3930,7 @@
                     "email": "johannes.wachter@massiveart.at"
                 }
             ],
-            "time": "2015-07-04 15:35:25"
+            "time": "2015-07-04 16:17:28"
         },
         {
             "name": "symfony-cmf/core-bundle",

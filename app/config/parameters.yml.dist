@@ -18,3 +18,7 @@ parameters:
 
     websocket_port: 9876
     websocket_url: 'sulu.lo'
+
+    hash_key: ThisTokenIsNotSoSecretChangeIt
+    hash_algorithm: md5
+
